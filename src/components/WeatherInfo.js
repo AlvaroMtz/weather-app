@@ -106,26 +106,26 @@ class WeatherInfo extends React.Component{
             <div className="container__nextDays">
                 <div>
                     <p className="container__nextDays-day">10</p>
-                    <p>12º</p>
-                    <p>18º</p>
+                    <p>{Math.floor(this.props.proximosDias_1_max)}</p>
+                    <p>{Math.floor(this.props.proximosDias_1_min)}</p>
                 </div>
                 <span className="separador"></span>
                 <div>
                     <p className="container__nextDays-day">11</p>
-                    <p>12º</p>
-                    <p>18º</p>
+                    <p>{Math.floor(this.props.proximosDias_2_max)}</p>
+                    <p>{Math.floor(this.props.proximosDias_2_min)}</p>
                 </div>
                 <span className="separador"></span>
                 <div>
                     <p className="container__nextDays-day">12</p>
-                    <p>12º</p>
-                    <p>18º</p>
+                    <p>{Math.floor(this.props.proximosDias_3_max)}</p>
+                    <p>{Math.floor(this.props.proximosDias_3_min)}</p>
                 </div>
                 <span className="separador"></span>
                 <div>
                     <p className="container__nextDays-day">13</p>
-                    <p>12º</p>
-                    <p>18º</p>
+                    <p>{Math.floor(this.props.proximosDias_4_max)}</p>
+                    <p>{Math.floor(this.props.proximosDias_4_min)}</p>
                 </div>
             </div>
         </div>
