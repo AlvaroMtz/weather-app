@@ -10,6 +10,7 @@ import nublado from './animations/nublado.json'
 import soleado from './animations/soleado.json'
 import tormenta from './animations/tormenta.json'
 
+
 class WeatherInfo extends React.Component{
 
     setDay() {
@@ -98,8 +99,8 @@ class WeatherInfo extends React.Component{
                         <p className="currentTemp">{Math.floor(this.props.temperatura)}</p>
                     </div>
                     <div className="container__hum">
-                        <p>Hum 45%</p>
-                        <p>V. Wind 3</p>
+                        <p>Hum {Math.floor(this.props.humedad)}</p>
+                        <p>V. Wind {Math.floor(this.props.velocidadViento)}</p>
                     </div>
                 </div>
             </div>

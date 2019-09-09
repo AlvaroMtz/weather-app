@@ -42,6 +42,8 @@ class App extends Component {
       temperatura_minima: data.consolidated_weather[0].min_temp,
       temperatura_maxima: data.consolidated_weather[0].max_temp,
       descipcion: data.consolidated_weather[0].weather_state_name,
+      humedad: data.consolidated_weather[0].humidity,
+      velocidadViento: data.consolidated_weather[0].wind_speed
     })
   }
 

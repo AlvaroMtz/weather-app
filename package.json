@@ -2,9 +2,10 @@
   "name": "clima",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alvaromtz.github.io/weather-app/",
+  "homepage": "https://alvaromtz.github.io/weanther-app/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-lottie": "^1.2.3",
@@ -35,5 +36,3 @@
     ]
   }
 }
-
-
