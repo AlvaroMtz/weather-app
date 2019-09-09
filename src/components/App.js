@@ -34,8 +34,6 @@ class App extends Component {
     const CITY_INFO_RESPONSE =  await fetch(CITY_URL_DATE)
     const data = await CITY_INFO_RESPONSE.json();
 
-    console.log(data.consolidated_weather[0])
-
     this.setState({
       ciudad: data.title,
       temperatura: data.consolidated_weather[0].the_temp,
@@ -54,17 +52,13 @@ class App extends Component {
     var proximosDiasSingle = []
 
     for(var i = 1; i<=4; i ++){
-      console.log('hola 1')
       const CITY_URL_DATE = `${cors_api_url}https://www.metaweather.com/api/location/${city}/${yyyy}/${mm}/${dd + i}`
       const CITY_INFO_RESPONSE =  await fetch(CITY_URL_DATE)
       const data = await CITY_INFO_RESPONSE.json();
       proximosDiasSingle.push(data)
-      console.log('hola 2')
     }
 
     proximosDias = proximosDiasSingle;
-
-    console.log(proximosDias)
 
     var dia = ({
       dia: dd,
