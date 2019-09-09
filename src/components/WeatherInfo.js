@@ -100,7 +100,7 @@ class WeatherInfo extends React.Component{
                     </div>
                     <div className="container__hum">
                         <p>Hum {Math.floor(this.props.humedad)}</p>
-                        <p>V. Wind {Math.floor(this.props.velocidadViento)}</p>
+                        <p>Wind S. {Math.floor(this.props.velocidadViento)}</p>
                     </div>
                 </div>
             </div>
