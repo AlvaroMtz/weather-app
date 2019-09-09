@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/weanther-app/precache-manifest.c8b5c42b8282c077d835f045554e342d.js"
+  "/weanther-app/precache-manifest.4c9265c1492c5e6c0ddedce32aa99cd8.js"
 );
 
 self.addEventListener('message', (event) => {
