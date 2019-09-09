@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "573c4ebcaa24e25582ea80466c8283b8",
+    "revision": "26e0fd153aaff79f856fb2d8d23cc050",
     "url": "/weanther-app/index.html"
   },
   {
-    "revision": "ad3b31760516ae8b03fe",
+    "revision": "b426c8f05c0dc27641af",
     "url": "/weanther-app/static/css/main.de217b4f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weanther-app/static/js/2.90776426.chunk.js"
   },
   {
-    "revision": "ad3b31760516ae8b03fe",
-    "url": "/weanther-app/static/js/main.ffbdc692.chunk.js"
+    "revision": "b426c8f05c0dc27641af",
+    "url": "/weanther-app/static/js/main.7cf2f7f8.chunk.js"
   },
   {
     "revision": "fe1a98a157751563c804",

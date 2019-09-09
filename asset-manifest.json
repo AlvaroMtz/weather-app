@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/weanther-app/static/css/main.de217b4f.chunk.css",
-    "main.js": "/weanther-app/static/js/main.ffbdc692.chunk.js",
-    "main.js.map": "/weanther-app/static/js/main.ffbdc692.chunk.js.map",
+    "main.js": "/weanther-app/static/js/main.7cf2f7f8.chunk.js",
+    "main.js.map": "/weanther-app/static/js/main.7cf2f7f8.chunk.js.map",
     "runtime~main.js": "/weanther-app/static/js/runtime~main.d4464f0c.js",
     "runtime~main.js.map": "/weanther-app/static/js/runtime~main.d4464f0c.js.map",
     "static/js/2.90776426.chunk.js": "/weanther-app/static/js/2.90776426.chunk.js",
     "static/js/2.90776426.chunk.js.map": "/weanther-app/static/js/2.90776426.chunk.js.map",
     "index.html": "/weanther-app/index.html",
-    "precache-manifest.694a7ef8a56afc3414f5b07265d04956.js": "/weanther-app/precache-manifest.694a7ef8a56afc3414f5b07265d04956.js",
+    "precache-manifest.c8b5c42b8282c077d835f045554e342d.js": "/weanther-app/precache-manifest.c8b5c42b8282c077d835f045554e342d.js",
     "service-worker.js": "/weanther-app/service-worker.js",
     "static/css/main.de217b4f.chunk.css.map": "/weanther-app/static/css/main.de217b4f.chunk.css.map"
   }
