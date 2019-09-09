@@ -1,0 +1,107 @@
+.container_WeatherInfo{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  min-height: 70vh;
+  border-radius: 25px;
+  margin-left: 40vw;
+  margin-top: 5vh;
+  justify-content: space-between;
+  -webkit-box-shadow: 2px 5px 12px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 5px 12px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 5px 12px 0px rgba(0,0,0,0.75);
+  color: white;
+  background: rgba(179,220,237,1);
+  background: -moz-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(15,127,162,1) 98%, rgba(13,126,161,1) 99%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179,220,237,1)), color-stop(0%, rgba(188,224,238,1)), color-stop(98%, rgba(15,127,162,1)), color-stop(99%, rgba(13,126,161,1)));
+  background: -webkit-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(15,127,162,1) 98%, rgba(13,126,161,1) 99%);
+  background: -o-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(15,127,162,1) 98%, rgba(13,126,161,1) 99%);
+  background: -ms-linear-gradient(top, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(15,127,162,1) 98%, rgba(13,126,161,1) 99%);
+  background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(188,224,238,1) 0%, rgba(15,127,162,1) 98%, rgba(13,126,161,1) 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#0d7ea1', GradientType=0 );
+}
+
+.header_info{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.city{
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.container__temp{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.container__temp-minmax, .container__hum{
+  margin: 5%
+}
+
+.currentTemp{
+  font-size: 70px;
+  font-weight: 700
+}
+
+.container__nextDays{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.container__nextDays>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.container__nextDays>div::before{
+  width: 1px;
+  height: 100%;
+  border: 1px solid black
+
+}
+
+.container__nextDays-day{
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.separador{
+  border: 1px solid white;
+  height: 100px;
+  margin-top: 40px
+}
+
+@media only screen and (max-width: 1025px) {
+  .container_WeatherInfo{
+    width: 30vw;
+    margin-left: 35vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container_WeatherInfo{
+    width: 40vw;
+    margin-left: 30vw;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container_WeatherInfo{
+    width: 80vw;
+    margin-left: 10vw;
+  }
+}

@@ -3,18 +3,14 @@ import React from 'react'
 import './style/WeatherMenu.css'
 
 const WeatherMenu = props => {
-    function handleClick(e) {
-        var city = e.target.id;
-        e.preventDefault();
-        console.log(city);
-      }
+
     return (
         <div className="card card-body">
             <div className='container'>
-                <p  id="Madrid" onClick={handleClick}>Madrid</p>
-                <p id="Londres" onClick={handleClick}>Londres</p>
-                <p id="SanFrancisco" onClick={handleClick}>San Francisco</p>
-                <p id="NuevaYork" onClick={handleClick}>Nueva York</p>
+                <p  id="madrid" onClick={props.getCity}>Madrid</p>
+                <p id="london" onClick={props.getCity}>Londres</p>
+                <p id="sanFrancisco" onClick={props.getCity}>San Francisco</p>
+                <p id="newYork" onClick={props.getCity}>Nueva York</p>
             </div>
         </div>
     )

@@ -1,9 +1,48 @@
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100vw;
 }
 
 .container>p {
     padding: 10px;
+    margin: 10px 10px;
     cursor: pointer;
 }
+
+.container>p:hover {
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+}
+
+.active {
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 425px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90vw;
+        margin-left: 5vw
+    }
+    .container>p {
+        padding: 5px;
+        margin: 15px 5px;
+
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .container>p {
+        font-size: 13px;
+
+    }
+  }
